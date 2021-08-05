@@ -1,0 +1,16 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/kanew/PycharmProjects/nuxt-kane/client/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_dea1650c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/kanew/PycharmProjects/nuxt-kane/client/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_9f31af82"
+  }
+]
