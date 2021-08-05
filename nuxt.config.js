@@ -1,4 +1,9 @@
 export default {
+    build: {
+        babel: {
+            plugins: [['@babel/plugin-proposal-private-methods', {loose: true}]],
+        },
+    },
     buildModules: [
         "@nuxtjs/vuetify"
     ],
