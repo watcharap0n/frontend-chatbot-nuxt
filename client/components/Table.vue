@@ -110,9 +110,6 @@ export default {
       ],
     }
   },
-  created() {
-    const path = 'https://api.nuxtjs.dev/mountains'
-  }
 }
 </script>
 
