@@ -1,10 +1,10 @@
 <template>
-  <v-container>
+  <div>
     <NuxtLink to="/about" class="text-center text-body">
       Link To about
     </NuxtLink>
     <Table/>
-  </v-container>
+  </div>
 </template>
 
 <script>

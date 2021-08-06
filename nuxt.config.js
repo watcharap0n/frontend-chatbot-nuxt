@@ -1,9 +1,4 @@
 export default {
-    build: {
-        babel: {
-            plugins: [['@babel/plugin-proposal-private-methods', {loose: true}]],
-        },
-    },
     buildModules: [
         "@nuxtjs/vuetify"
     ],
@@ -12,5 +7,8 @@ export default {
         "bootstrap-vue/nuxt",
     ],
     srcDir: 'client/',
+    // css: [
+    //     '~/assets/css/main.scss'
+    // ],
     components: true
 }

@@ -2,13 +2,15 @@
   "name": "app",
   "version": "1.0.0",
   "main": "index.js",
+
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "nuxt start",
+    "start": "nuxt start && uvicorn server.app:app --reload",
     "heroku-postbuild": "npm run build"
   },
+
   "dependencies": {
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/vuetify": "^1.12.1",

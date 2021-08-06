@@ -1,5 +1,8 @@
 {
   "Table": {
     "description": "Auto imported from components/Table.vue"
+  },
+  "LayoutAppBar": {
+    "description": "Auto imported from components/layout/AppBar.vue"
   }
 }

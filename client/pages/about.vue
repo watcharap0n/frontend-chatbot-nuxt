@@ -1,6 +1,8 @@
 <template>
   <v-container>
-    <h2>Hello About</h2>
+    <NuxtLink to="/">
+      <h2>Hello About</h2>
+    </NuxtLink>
   </v-container>
 </template>
 

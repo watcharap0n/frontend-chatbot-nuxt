@@ -1,14 +1,13 @@
 <template>
-    <v-data-table
-        :headers="headers"
-        :items="desserts"
-        :search="search"
-    ></v-data-table>
+  <v-data-table
+      :headers="headers"
+      :items="desserts"
+      :search="search"
+  ></v-data-table>
 
 </template>
 
 <script>
-
 
 export default {
   data() {
@@ -111,6 +110,9 @@ export default {
       ],
     }
   },
+  created() {
+    const path = 'https://api.nuxtjs.dev/mountains'
+  }
 }
 </script>
 
